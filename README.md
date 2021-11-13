@@ -6,6 +6,7 @@ throwaway Github account not included).
 Simplest way to run is using `go run main.go "*/15 0 1,15 * 1-5 /usr/bin/find"`
 
 ## Potential improvements
+- Better document the code, again due to time restraints I opted for functionality first
 - Write tests to cover failures on specific parsers and validate correct error messages
 - Extend to work with more than 5 time fields
 - Implement extension functionality i.e, `@yearly`, `@monthly`, `@daily` etc.
